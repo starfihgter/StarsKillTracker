@@ -1,0 +1,26 @@
+total levels: 3
+'#0':
+  permissions:
+    - "epicspawners.place.cow"
+    - "epicspawners.place.pig"
+  mob-kill-list:
+    - COW
+    - PIG
+  kill-number: 100
+  list-description: "Passive mobs"
+'#1':
+  permissions:
+    - "epicspawners.place.zombie"
+    - "epicspawners.place.sheep"
+    - "epicspawners.place.rabbit"
+  mob-kill-list:
+    - ZOMBIE
+  kill-number: 200
+  list-description: "Zombies"
+'#2':
+  permissions:
+    - "epicspawners.place.spider"
+  mob-kill-list:
+    - SPIDER
+  kill-number: 200
+  list-description: "spiders"

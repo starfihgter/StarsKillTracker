@@ -17,7 +17,7 @@ public class Command implements CommandExecutor {
             int currentLevel = userRecord.getInt(player.getUniqueId().toString() + ".level", 0);
             int kills = userRecord.getInt(player.getUniqueId().toString() + ".points", 0);
             int requirement = levels.getInt("#" + currentLevel + ".kill-number");
-            int description = levels.getInt("#" + currentLevel + ".list-description");
+            String description = levels.getString("#" + currentLevel + ".list-description");
             player.sendMessage(prefix + "You are currently on level " + currentLevel + " and you have currently killed " + kills + " out of " + requirement + " " + description);
             return true;
         }else{

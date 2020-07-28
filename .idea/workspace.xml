@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f5839f-3d75-4c11-a1bd-fc2f8c401dfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_luckperms_api_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/CommandToggle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StarsKillTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StarsKillTracker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/EventTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/EventTracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/examplelevels.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/examplelevels.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,5 +95,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1920.496.1920.1040@0.0.1366.728" timestamp="1595895410985" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1595935389559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.496.1920.1040@0.0.1366.728" timestamp="1595935389559" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1595935389559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.496.1920.1040@0.0.1366.728" timestamp="1595935389559" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1595935389556">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.496.1920.1040@0.0.1366.728" timestamp="1595935389556" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1595935389559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.496.1920.1040@0.0.1366.728" timestamp="1595935389559" />
   </component>
 </project>

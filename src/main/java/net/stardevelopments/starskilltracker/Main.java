@@ -27,6 +27,9 @@ public final class Main extends JavaPlugin {
         levelsLoader.getUserRecord().addDefault("#0.permissions", new String[]{"epicspawners.place.cow", "epicspawners.place.pig"});
         levelsLoader.getUserRecord().addDefault("#0.mob-kill-list", new String[]{"COW", "PIG"});
         levelsLoader.getUserRecord().addDefault("#0.kill-number", 100);
+        levelsLoader.getUserRecord().addDefault("#0.list-description", "Cows and Pigs");
+        levelsLoader.getUserRecord().options().copyDefaults();
+        levelsLoader.saveCustomConfig();
     }
 
     @Override

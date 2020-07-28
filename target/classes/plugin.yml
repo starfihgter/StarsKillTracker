@@ -1,0 +1,15 @@
+name: StarsKillTracker
+version: SNAPSHOT 2 - 0.1.0
+main: net.stardevelopments.starskilltracker.Main
+api-version: 1.13
+softdepend: [PlaceholderAPI]
+authors: [starfihgter]
+description: You need to track kills? You need this plugin
+website: stardevelopments.net
+commands:
+  level:
+    usage: /level
+    description: Shows your current level progress
+  showlevel:
+    usage: /showlevel
+    description: toggles level progress bar
