@@ -1,0 +1,8 @@
+name: StarsKillTracker
+version: ${project.version}
+main: net.stardevelopments.starskilltracker.Main
+api-version: 1.13
+softdepend: [PlaceholderAPI]
+authors: [starfihgter]
+description: You need to track kills? You need this plugin
+website: stardevelopments.net
