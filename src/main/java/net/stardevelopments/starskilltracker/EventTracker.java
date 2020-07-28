@@ -40,10 +40,10 @@ public class EventTracker implements Listener {
                         currentLevel++;
                         kills = 0;
                         player.sendMessage(prefix + "You are now on level " + currentLevel + "!");
-                        player.sendMessage(prefix + "To progress further, you must kill " + levels.getInt("#" + currentLevel + ".kill-number") + " " + levels.getInt("#" + currentLevel + ".list-description"));
+                        player.sendMessage(prefix + "To progress further, you must kill " + levels.getInt("#" + currentLevel + ".kill-number") + " " + levels.getString("#" + currentLevel + ".list-description"));
                         RegisteredServiceProvider<LuckPerms> provider = Bukkit.getServicesManager().getRegistration(LuckPerms.class);
                         User user = provider.getProvider().getUserManager().getUser(player.getUniqueId());
-                        String[] permissions = (String[]) levels.getStringList("#" + currentLevel + ".permissions").toArray();
+                        String[] permissions = levels.getStringList("#" + currentLevel + ".permissions").toArray(new String[0]);
                         for (String permission : permissions){
                             Node node = Node.builder(permission).value(true).build();
                             user.data().add(node);
