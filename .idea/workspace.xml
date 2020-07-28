@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10f5839f-3d75-4c11-a1bd-fc2f8c401dfd" name="Default Changelist" comment="" />
+    <list default="true" id="10f5839f-3d75-4c11-a1bd-fc2f8c401dfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_luckperms_api_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/CommandToggle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarsKillTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StarsKillTracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/EventTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/EventTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/stardevelopments/starskilltracker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/examplelevels.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/examplelevels.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/StarsKillTracker" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -34,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">

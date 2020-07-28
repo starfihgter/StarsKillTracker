@@ -6,3 +6,10 @@ softdepend: [PlaceholderAPI]
 authors: [starfihgter]
 description: You need to track kills? You need this plugin
 website: stardevelopments.net
+commands:
+  level:
+    usage: /level
+    description: Shows your current level progress
+  showlevel:
+    usage: /showlevel
+    description: toggles level progress bar
