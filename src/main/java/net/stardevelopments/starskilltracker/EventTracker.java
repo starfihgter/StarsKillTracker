@@ -32,7 +32,7 @@ public class EventTracker implements Listener {
             Player player = deadEntity.getKiller().getPlayer();
             int currentLevel = userRecord.getInt(player.getUniqueId().toString() + ".level", 0);
             int kills = userRecord.getInt(player.getUniqueId().toString() + ".points", 0);
-            String[] targets = (String[]) levels.getStringList("#" + currentLevel + ".mob-kill-list").toArray();
+            String[] targets = levels.getStringList("#" + currentLevel + ".mob-kill-list").toArray(new String[0]);
             for (String target : targets) {
                 if (deadEntity.getType() == EntityType.valueOf(target.toUpperCase())) {
                     kills++;
@@ -54,7 +54,7 @@ public class EventTracker implements Listener {
                     userRecord.set(player.getUniqueId().toString() + ".points", kills);
                     if (userRecord.getBoolean(player.getUniqueId().toString() + ".message", false)) {
                         int requirement = levels.getInt("#" + currentLevel + ".kill-number");
-                        int description = levels.getInt("#" + currentLevel + ".list-description");
+                        String description = levels.getString("#" + currentLevel + ".list-description");
                         player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(kills + " out of " + requirement + " " + description + " kills"));
                     }
                 }

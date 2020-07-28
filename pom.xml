@@ -6,7 +6,7 @@
 
     <groupId>net.stardevelopments</groupId>
     <artifactId>StarsKillTracker</artifactId>
-    <version>SNAPSHOT 4 - 0.1.0</version>
+    <version>SNAPSHOT 7 - 0.1.0</version>
     <packaging>jar</packaging>
 
     <name>StarsKillTracker</name>

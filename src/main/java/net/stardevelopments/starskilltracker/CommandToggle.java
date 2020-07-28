@@ -16,11 +16,11 @@ public class CommandToggle implements CommandExecutor {
         String prefix = "§3§lWiser§b§lMC §f» ";
         if (sender instanceof Player) {
             Player player = (Player) sender;
-            if (userRecord.getBoolean(player.getUniqueId().toString() + ".message", true)) {
+            if (!(userRecord.getBoolean(player.getUniqueId().toString() + ".message", false))) {
                 int currentLevel = userRecord.getInt(player.getUniqueId().toString() + ".level", 0);
                 int kills = userRecord.getInt(player.getUniqueId().toString() + ".points", 0);
                 int requirement = levels.getInt("#" + currentLevel + ".kill-number");
-                int description = levels.getInt("#" + currentLevel + ".list-description");
+                String description = levels.getString("#" + currentLevel + ".list-description");
                 player.sendMessage(prefix + "Enabled Action-Bar message!");
                 player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(kills + " out of " + requirement + " " + description + " kills"));
                 userRecord.set(player.getUniqueId().toString() + ".message", true);
