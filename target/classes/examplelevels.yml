@@ -1,4 +1,4 @@
-total levels: 3
+total-levels: 3
 '#0':
   permissions:
     - "epicspawners.place.cow"
